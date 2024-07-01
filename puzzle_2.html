@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopa de Letras</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 style="font-style: italic; padding-right: 5px;">Puzzle #2 <span style="font-style:normal;" class="search-icon">&#128269;</span></h1>
+    <ul id="word-list" class="word-list"></ul>
+    <button id="toggle-all">All solutions</button>
+    <div class="grid-container">
+        <div id="grid" class="grid"></div>
+    </div>
+    <div class="verse-container" id="verse-container"></div>
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <span class="close-popup" id="close-popup">&#10006;</span>
+        <h2 style="color: white;">Choose Puzzle</h2>
+        <br>
+        <button id="decrease" style="padding: 15px;border-radius: 3px;border-color: blanchedalmond;">&#9664;</button>
+        <input type="number" id="puzzle-number" value="10" style="padding: 5px;font-size: 30px;">
+        <button id="increase"style="padding: 15px;border-radius: 3px;border-color: blanchedalmond;">&#9654;</button>
+        <br><br>
+        <button id="search-popup" style="letter-spacing: 2px;font-weight: 700;">FIND</button>
+        <br>
+    </div>
+    <script>
+        const words = ["ACTS", "ROMANS", "TITUS", "PETER", "ORIGINAL", "TEXT", "PUBLIC", "DOMAIN", "MAY", "FREELY", "PLACED", "CREATED", "CHANGES", "BOOK", "INSTEAD", "WORD", "WRAPPED", "ESTHER", "READER", "BOOKS", "EASY", "READING", "SEPARATE", "SIN", "NEVER"];
+    </script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
